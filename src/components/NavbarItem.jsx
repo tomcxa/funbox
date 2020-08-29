@@ -15,8 +15,8 @@ const NavbarItem = ({ item }) => {
             onClick={() => history.push(item.anchor)}
         >
             <Link
-                exact={item.anchor === '/'}
-                className="navbar-link"
+                // exact
+                className="navbar-link unstyled-link"
                 to={item.anchor}
             >
                 {item.title}

@@ -1,10 +1,9 @@
 import React from 'react'
+import CatEatContainer from '../components/CatEatContainer'
 
 const LevelTwo = () => {
     return (
-        <div>
-            <h2>LevelTwo</h2>
-        </div>
+        <CatEatContainer />
     )
 }
 

@@ -3,8 +3,8 @@ import NavbarItem from './NavbarItem'
 
 const Navbar = () => {
     const navItems = [
-        {anchor: '/', title: 'Level01'},
-        {anchor: '/level2', title: 'Level02'}
+        {anchor: '/', title: 'Level 1'},
+        {anchor: '/level2', title: 'Level 2'}
     ]
 
     return (

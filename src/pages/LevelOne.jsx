@@ -1,22 +1,14 @@
 import React from 'react'
-import { asks } from '../asks/asks'
 
 const LevelOne = () => {
     return (
-        <div>
-           <h2>LevelOne</h2>
-           <ul>
-               {
-                    asks.map((item, index) => (
-                        <li key={index} >
-                            <h3>Q{index+1}</h3>
-                            <p>{item.q}</p>
-                            <h3>A{index + 1}</h3>
-                            <p>{item.a}</p>
-                        </li>
-                    ))
-                }
-           </ul>
+        <div className="level-one-container">
+            <a
+                className="level-one-link unstyled-link"
+                href='https://github.com/tomcxa/funbox/blob/master/README.md'
+            >
+                Нажмите чтобы открыть ответы на вопросы Level 1
+            </a>
         </div>
     )
 }

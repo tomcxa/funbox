@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -8,14 +12,33 @@ ul {
   margin: 0;
 }
 
+#root {
+  position: relative;
+  height: 100vh;
+}
+
+.unstyled-link {
+  text-decoration: none;
+  color: black;
+}
+
 .header {
+  position: relative;
   background-color: rgb(175, 73, 73);
   padding-left: 2rem;
   padding-right: 2rem;
+  text-align: center;
+}
+
+.header-logo {
+  margin: 0;
+
 }
 
 .navbar-list {
   display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .navbar-item {
@@ -28,12 +51,38 @@ ul {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.navbar-link {
-  text-decoration: none;
-  color: black;
+.level-one-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.level-one-link {
+  padding: 2rem;
+  text-align: center;
+  border: 4px dashed rgb(99, 96, 96);
+  border-radius: 5px;
+}
+
+.level-one-link:hover {
+  background-color: rgb(99, 96, 96, 0.3);;
+}
+
+.cat-eat-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100%;
+  color: white;
+}
+
+.cat-eat-title {
+  
 }
 
 .active {
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid orangered;
   background-color: rgba(255, 255, 255, 0.7);
 }
