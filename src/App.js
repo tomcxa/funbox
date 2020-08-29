@@ -10,7 +10,7 @@ import LevelTwo from './pages/LevelTwo';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/funbox" >
       <Header />
       <Switch>
       <Route path="/level2" >

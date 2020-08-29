@@ -1,0 +1,19 @@
+.cat-eat-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.cat-eat-title {
+    display: block;
+    width: 100%;
+    font-family: 'Exo 2.0', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 20px;
+}

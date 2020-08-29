@@ -1,0 +1,152 @@
+$default: #1698d9;
+$defaultHover: lighten($default, 20%);
+$selected: #d91667;
+$selectedHover: lighten($selected, 20%);
+$disabled: #b3b3b3;
+$ligtText: #666666;
+$cardMg: 33px;
+
+.cat-eat-wrapper {
+  width: 320px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 65px;
+
+  .cat-eat-card {
+    position: relative;
+    cursor: pointer;
+    max-height: 480px;
+    min-height: 480px;
+    color: #000000;
+    background-color: #f2f2f2;
+    border: 4px solid $default;
+    border-radius: 10px;
+    background-image: url("../images/cat.png");
+    background-repeat: no-repeat;
+    background-position: -24px 205px;
+    padding: 12px;
+    transition: all 0.2s linear;
+
+    &__card-header {
+      font-size: 16px;
+      color: $ligtText;
+      margin-top: 9px;
+      margin-left: 33px;
+    }
+
+    &__card-body {
+      margin-left: 33px;
+
+      &__title {
+        font-size: 48px;
+        margin-top: 17px;
+        margin-bottom: 0;
+      }
+
+      &__with {
+        font-size: 24px;
+      }
+
+      &__promo {
+        margin-top: 15px;
+        color: $ligtText;
+        font-size: 14px;
+      }
+    }
+
+    &__weight {
+      position: absolute;
+      text-align: center;
+      color: #ffffff;
+      background-color: $default;
+      width: 82px;
+      height: 82px;
+      font-size: 40px;
+      right: 12px;
+      bottom: 12px;
+      border-radius: 50%;
+      padding-top: 8px;
+      transition: all 0.2s linear;
+
+      & .unit {
+        font-size: 15px;
+      }
+    }
+
+    &:hover {
+      border-color: $defaultHover;
+
+      & .cat-eat-card__weight {
+        background-color: $defaultHover;
+      }
+    }
+  }
+
+  & .cat-eat-footer {
+    text-align: center;
+    margin-top: 15px;
+
+    &__link {
+      text-decoration: none;
+      color: $default;
+      border-bottom: 2px dashed $default;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: $defaultHover;
+        border-color: $defaultHover;
+      }
+    }
+  }
+
+  .selected {
+    border: 4px solid $selected;
+  
+    &:hover {
+      border-color: $selectedHover;
+      & .cat-eat-card__weight {
+        background-color: $selectedHover;
+      }
+    }
+  
+    & .cat-eat-card__weight {
+      background-color: $selected;
+    }
+  }
+  
+  .disabled {
+    position: relative;
+    border: 4px solid $disabled;
+  
+    &::after {
+      content: "";
+      cursor:  default;
+      display: block;
+      position: absolute;
+      border-radius: 10px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  
+    & .cat-eat-card__weight {
+      background-color: $disabled;
+    }
+
+    &:hover {
+      border: 4px solid $disabled;
+      & .cat-eat-card__weight {
+        background-color: $disabled;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cat-eat-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

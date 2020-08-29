@@ -1,0 +1,23 @@
+$bg: black;
+
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg;
+  background-image: url('../images/bg.png');
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: $bg;
+    background-image: url('../images/bg.png');
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -100;
+  }
+}
