@@ -13,7 +13,7 @@ function App() {
     <Router basename="/funbox" >
       <Header />
       <Switch>
-      <Route path="/level2" >
+        <Route path="/level2" >
           <LevelTwo />
         </Route>
         <Route path="/" >
