@@ -1,0 +1,9 @@
+$bg: black;
+
+.app-wrapper {
+  background-color: $bg;
+  background-image: url('../../images/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,27 +1,13 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
-import Header from './components/Header';
-import LevelOne from './pages/LevelOne';
-import LevelTwo from './pages/LevelTwo';
+import AppWrapper from './components/AppWrapper/AppWrapper';
+import AppContainer from './components/AppContainer/AppContainer';
 
 function App() {
-  return (
-    <Router basename="/funbox" >
-      <Header />
-      <Switch>
-        <Route path="/level2" >
-          <LevelTwo />
-        </Route>
-        <Route path="/" >
-          <LevelOne />
-        </Route>
-      </Switch>
-    </Router>
-  );
+    return (
+        <AppWrapper>
+            <AppContainer />
+        </AppWrapper>
+    );
 }
 
 export default App;

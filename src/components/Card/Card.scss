@@ -6,13 +6,13 @@ $disabled: #b3b3b3;
 $ligtText: #666666;
 $cardMg: 33px;
 
-.cat-eat-wrapper {
+.card-wrapper {
   width: 320px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
 
-  .cat-eat-card {
+  .card {
     position: relative;
     cursor: pointer;
     max-height: 480px;
@@ -22,20 +22,20 @@ $cardMg: 33px;
     background-color: #f2f2f2;
     border: 4px solid $default;
     border-radius: 10px;
-    background-image: url("../images/cat.png");
+    background-image: url("../../images/cat.png");
     background-repeat: no-repeat;
     background-position: -24px 205px;
     padding: 12px;
     transition: all 0.2s linear;
 
-    &__card-header {
+    &-header {
       font-size: 16px;
       color: $ligtText;
       margin-top: 9px;
       margin-left: 33px;
     }
 
-    &__card-body {
+    &-body {
       margin-left: 33px;
 
       &__title {
@@ -55,7 +55,7 @@ $cardMg: 33px;
       }
     }
 
-    &__weight {
+    &-weight {
       position: absolute;
       text-align: center;
       color: #ffffff;
@@ -69,7 +69,7 @@ $cardMg: 33px;
       padding-top: 8px;
       transition: all 0.2s linear;
 
-      & .unit {
+      &__unit {
         font-size: 15px;
       }
     }
@@ -89,14 +89,14 @@ $cardMg: 33px;
     &:hover {
       border-color: $defaultHover;
 
-      & .cat-eat-card__weight,
+      & .card-weight,
       &::before {
         background-color: $defaultHover;
       }
     }
   }
 
-  & .cat-eat-footer {
+  .card-info {
     text-align: center;
     margin-top: 15px;
 
@@ -111,6 +111,10 @@ $cardMg: 33px;
         border-color: $defaultHover;
       }
     }
+  }
+
+  .info-disabled {
+    color: #9FA046;
   }
 
   .selected {
@@ -131,13 +135,13 @@ $cardMg: 33px;
     &:hover {
       border-color: $selectedHover;
 
-      .cat-eat-card__weight,
+      .card-weight,
       &::before {
         background-color: $selectedHover;
       }
     }
 
-    & .cat-eat-card__weight {
+    & .card-weight {
       background-color: $selected;
     }
   }
@@ -172,14 +176,14 @@ $cardMg: 33px;
       background-color: rgba(255, 255, 255, 0.6);
     }
 
-    .cat-eat-card__weight {
+    .card-weight {
       background-color: $disabled;
     }
 
     &:hover {
       border: 4px solid $disabled;
 
-      & .cat-eat-card__weight,
+      & .card-weight,
       &::before {
         background-color: $disabled;
       }
@@ -187,9 +191,9 @@ $cardMg: 33px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .cat-eat-wrapper {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
+// @media screen and (max-width: 400px) {
+//   .wrapper {
+//     margin-left: 0;
+//     margin-right: 0;
+//   }
+// }
