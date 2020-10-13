@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/funbox-test/static/css/main.bc3e1acb.chunk.css",
-    "main.js": "/funbox-test/static/js/main.4351aeb5.chunk.js",
-    "main.js.map": "/funbox-test/static/js/main.4351aeb5.chunk.js.map",
-    "runtime-main.js": "/funbox-test/static/js/runtime-main.59997f6a.js",
-    "runtime-main.js.map": "/funbox-test/static/js/runtime-main.59997f6a.js.map",
-    "static/js/2.5e3d6012.chunk.js": "/funbox-test/static/js/2.5e3d6012.chunk.js",
-    "static/js/2.5e3d6012.chunk.js.map": "/funbox-test/static/js/2.5e3d6012.chunk.js.map",
-    "index.html": "/funbox-test/index.html",
-    "precache-manifest.8f39fc851e9ac03086e890555f87626e.js": "/funbox-test/precache-manifest.8f39fc851e9ac03086e890555f87626e.js",
-    "service-worker.js": "/funbox-test/service-worker.js",
-    "static/css/main.bc3e1acb.chunk.css.map": "/funbox-test/static/css/main.bc3e1acb.chunk.css.map",
-    "static/js/2.5e3d6012.chunk.js.LICENSE.txt": "/funbox-test/static/js/2.5e3d6012.chunk.js.LICENSE.txt",
-    "static/media/AppWrapper.scss": "/funbox-test/static/media/bg.da7154cc.png",
-    "static/media/Card.scss": "/funbox-test/static/media/cat.3ad87d7b.png"
+    "main.css": "/funbox/static/css/main.02d84563.chunk.css",
+    "main.js": "/funbox/static/js/main.4351aeb5.chunk.js",
+    "main.js.map": "/funbox/static/js/main.4351aeb5.chunk.js.map",
+    "runtime-main.js": "/funbox/static/js/runtime-main.4a8dfdfb.js",
+    "runtime-main.js.map": "/funbox/static/js/runtime-main.4a8dfdfb.js.map",
+    "static/js/2.5e3d6012.chunk.js": "/funbox/static/js/2.5e3d6012.chunk.js",
+    "static/js/2.5e3d6012.chunk.js.map": "/funbox/static/js/2.5e3d6012.chunk.js.map",
+    "index.html": "/funbox/index.html",
+    "precache-manifest.3000ec1442e68722fbcd666788fe740f.js": "/funbox/precache-manifest.3000ec1442e68722fbcd666788fe740f.js",
+    "service-worker.js": "/funbox/service-worker.js",
+    "static/css/main.02d84563.chunk.css.map": "/funbox/static/css/main.02d84563.chunk.css.map",
+    "static/js/2.5e3d6012.chunk.js.LICENSE.txt": "/funbox/static/js/2.5e3d6012.chunk.js.LICENSE.txt",
+    "static/media/AppWrapper.scss": "/funbox/static/media/bg.da7154cc.png",
+    "static/media/Card.scss": "/funbox/static/media/cat.3ad87d7b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.59997f6a.js",
+    "static/js/runtime-main.4a8dfdfb.js",
     "static/js/2.5e3d6012.chunk.js",
-    "static/css/main.bc3e1acb.chunk.css",
+    "static/css/main.02d84563.chunk.css",
     "static/js/main.4351aeb5.chunk.js"
   ]
 }
