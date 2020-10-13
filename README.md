@@ -1,5 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/mu3f96194ih5j747?svg=true)](https://ci.appveyor.com/project/tomcxa/funbox)
-# [Ссылка на второе задание](https://tomcxa.github.io/funbox-test)  
+# [Ссылка на второе задание](https://tomcxa.github.io/funbox)  
 
 # Ответы на вопросы Level1
 

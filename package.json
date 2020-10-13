@@ -2,7 +2,7 @@
   "name": "funbox-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomcxa.github.io/funbox-test",
+  "homepage": "https://tomcxa.github.io/funbox",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "nanoid": "^3.1.12",
